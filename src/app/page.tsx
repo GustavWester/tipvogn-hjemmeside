@@ -44,9 +44,10 @@ export default function Home() {
     <>
       {/* Stort banner med tipvogn-billedet – fylder meget på forsiden */}
       <section className="relative w-full min-h-[50vh] sm:min-h-[60vh] bg-stone-300">
+        // To this:
         <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/photos/hero.jpg')" }}
+         className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('/tipvogn-hjemmeside/photos/hero.jpg')" }}
           aria-hidden
         />
         <div className="absolute inset-0 bg-stone-900/40" />
